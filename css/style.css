@@ -67,6 +67,17 @@ header img, header svg{
     height: 100%;
 }
 
+header .firstsvg {
+    width: 80%!important;
+}
+
+
+
+
+header a {
+    font-size: 20px;
+}
+
 #firstHeader, #secondHeader {
     gap: 10px;
     align-items: center;
@@ -132,6 +143,10 @@ main {
     overflow: hidden;
   }
 
+  .small-container p {
+    padding-block: 1px;
+  }
+
   .margine {
     margin-top: 130px;
     margin-bottom: 20px;
@@ -172,7 +187,7 @@ main {
 .small-footer {
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-inline: 20px;
     border-top: solid rgb(219, 217, 217) 2px;
     margin-bottom: 2px;
@@ -184,3 +199,7 @@ main {
     width: 4vh;
     border-radius: 50%;
 } 
+.star {
+    margin-top: 5px;
+    padding-inline: 20px;
+}
