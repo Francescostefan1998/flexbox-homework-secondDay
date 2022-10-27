@@ -25,12 +25,13 @@ body {
 }
 
 header {
-    height: 6vh;
+    height: 8vh;
     justify-content: space-between;
     padding: 1vh;
     padding-inline: 3vh;
 
 }
+
 
 #introduction {
     background-color: blueviolet;
